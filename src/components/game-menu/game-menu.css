@@ -1,0 +1,9 @@
+.game-menu {
+  margin-top: 3vh;
+  display: flex;
+  justify-content: center;
+}
+
+.game-menu div {
+  margin: 0 auto;
+}

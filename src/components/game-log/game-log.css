@@ -1,0 +1,11 @@
+.game-log {
+  margin-left: 3vh;
+  padding: 0;
+  width: 24vh ;
+  box-sizing: border-box;
+  background-color: #08272b;
+  color :rgb(233, 233, 233);
+  border: .3vh solid #041a1d;
+  border-radius: 1vh;
+  overflow: hidden;
+};

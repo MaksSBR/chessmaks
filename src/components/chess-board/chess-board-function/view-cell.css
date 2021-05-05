@@ -1,0 +1,10 @@
+
+.chess-fig {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.chess-fig img{
+  height: 8.8vh;
+}

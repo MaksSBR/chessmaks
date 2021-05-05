@@ -1,0 +1,6 @@
+.game {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}

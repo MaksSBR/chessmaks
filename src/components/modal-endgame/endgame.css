@@ -1,0 +1,25 @@
+.modal-end {
+  height: 100%;
+  width: 72vh;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  top:0;
+  left:0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.endgame {
+  height: 30vh;
+  width: 50vh;
+  background-color: #93dcee;
+  border-radius: 2vh;
+  border: 1vh solid #041b20;
+  color :#051c22;
+  box-shadow: 0 0 3vh 2vh  rgba(173, 4, 4, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4vh;
+}
