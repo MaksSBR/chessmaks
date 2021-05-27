@@ -63,7 +63,7 @@ const Game = () => {
 
 
  const newGame = () => {
-    const board = probaBoard;
+    const board = newGameBoard;
     const arrCopy = [];
     for (let i=0; i < board.board.length; i++) {
       arrCopy[i] = [...board.board[i]]

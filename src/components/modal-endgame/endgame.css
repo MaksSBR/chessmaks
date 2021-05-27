@@ -22,4 +22,5 @@
   align-items: center;
   justify-content: center;
   font-size: 4vh;
+  z-index: 10;
 }

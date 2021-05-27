@@ -20,6 +20,18 @@ const GameLog = ({moveLog, gameIs}) => {
       return (
         <div style = {{
           textAlign:'center',
+          fontSize:'2.5vh',
+          background: '#52929b',
+          border: ".5vh solid #135861",
+          borderRadius: "1vh",
+        }}>
+            white player walks
+        </div>
+      )
+    } else {
+      return (
+        <div style = {{
+          textAlign:'center',
           color:'grey',
           fontSize:'2.5vh',
           background: '#040914',
@@ -27,18 +39,6 @@ const GameLog = ({moveLog, gameIs}) => {
           borderRadius: "1vh",
           }}>
             black player walks
-        </div>
-      )
-    } else {
-      return (
-        <div style = {{
-          textAlign:'center',
-          fontSize:'2.5vh',
-          background: '#52929b',
-          border: ".5vh solid #135861",
-          borderRadius: "1vh",
-          }}>
-            white player walks
         </div>
       )
     };
